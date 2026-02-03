@@ -1,5 +1,5 @@
 import "./globals.css";
-
+import { inter } from "./ui/fonts";
 export const metadata = {
   title: "Namatullah Shahbazi | Full-Stack Developer",
   description: "Senior Full-Stack Developer Portfolio",
@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-900">{children}</body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
