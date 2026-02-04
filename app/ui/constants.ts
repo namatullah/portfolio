@@ -23,7 +23,7 @@ export const PROFILE = {
   FULL_NAME: "Namatullah Shahbazi",
   POSITION: "Full Stack Developer",
   SKILLS: ["React.js", "Next.js", "Node.js", "Nest.js", "PHP", "Laravel"],
-  EXPERIENCE: "9+ Years Experience",
+  EXPERIENCE: "8+ Years Experience",
   LINKS: [
     { HREF: "https://github.com/namatullah", LABEL: "GitHub" },
     {
@@ -92,7 +92,7 @@ export const PAGES = [
 
 export const ABOUT = {
   CONTENT:
-    "Full-stack software developer with 7+ years of experience building advanced platforms, management systems, and scalable modern applications. Strong expertise in backend APIs, modern JavaScript frameworks, and PHP ecosystems. Skilled in designing modular architectures, debugging complex applications, and writing clean, maintainable code. Experienced working in agile teams and contributing to end-to-end development across both frontend and backend",
+    "Full-stack software developer with 8+ years of experience building advanced platforms, management systems, and scalable modern applications. I specialize in designing modular architectures, developing robust backend APIs, and creating responsive, high-performance frontends using modern JavaScript frameworks like React, and Nest.js, as well as PHP ecosystems such as Laravel.Throughout my career, I have contributed to end-to-end development in agile teams, delivering solutions that improve efficiency, enhance user experience, and solve complex business challenges. I am passionate about writing clean, maintainable code, optimizing system performance, and mentoring junior developers to build high-quality software collaboratively.",
 };
 
 export const EXPERIENCE = {
@@ -102,9 +102,9 @@ export const EXPERIENCE = {
     {
       COMPANY: "Modeer",
       POSITION: "Full-Stack Developer",
-      PERIOD: "Jul 2022 - Aug 2025",
+      PERIOD: "July 2022 - November 2025",
       DESCRIPTION:
-        "Developed and delivered the full School Management System (Modeer) using Symfony and React. Built backend APIs, modules, and admin features. Worked with Docker for local development.",
+        "We developed a full School Management System (Modeer), which serves as the database backbone of a large platform and has been successfully implemented across numerous schools. I contributed to building backend APIs, core modules, administrative and service features, including reports, forms, and system services. I worked with Docker for local development and Git for version control, helping deliver a scalable and maintainable architecture.",
       TECHS: [
         "Symfony",
         "React",
@@ -116,42 +116,52 @@ export const EXPERIENCE = {
         "Ubuntu",
       ],
       ACHIEVMENT: [
-        "Built complete school management system from scratch",
-        "Developed RESTful APIs and admin features",
-        "Deployed application on Ubuntu Linux server",
+        "Built a complete School Management System from scratch",
+        "Collaborated closely with colleagues under the guidance of a supervisor",
+        "Developed the application on Ubuntu Linux using Docker-based environments",
+        "Actively participated in code reviews, QA testing, and heavy calculation / performance testing",
+        "Focused on writing reusable, clean, and maintainable code",
       ],
     },
     {
       COMPANY: "ADRAS LLC",
       POSITION: "Full-Stack Developer",
-      PERIOD: "Dec 2016 - Aug 2021",
+      PERIOD: "December 2016 - August 2021",
       DESCRIPTION:
-        "Key contributor to NIMS (National Information Management System), a large-scale national project. Worked as a Full-Stack Developer using CodeIgniter (PHP) + React + Node + MongoDB.",
+        "Key contributor to NIMS (National Information Management System), a large-scale national project, working as a Full-Stack Developer using CodeIgniter (PHP), Node.js, MySQL, and MongoDB. I collaborated under the guidance of the lead supervisor and frequently led small development teams, providing technical direction when assigned. My responsibilities included designing database structures, developing backend services, and overseeing module deployments to production after successful QA and testing, ensuring system stability and code quality.",
       TECHS: [
-        "React.js (Redux)",
+        "PHP",
+        "CodeIgniter",
+        "MySQL",
+        "JavaScript",
+        "Ajax & jQuery",
         "Node.js",
         "MongoDB",
-        "PHP (CodeIgniter)",
-        "MySQL",
       ],
       ACHIEVMENT: [
-        "Led team of 2-3 developers in later years",
-        "Responsible for module analysis and architecture design",
-        "Optimized API performance and database queries",
-        "Integrated frontend/backend components",
+        "Conducted module analysis and designed system architecture to ensure scalable and maintainable solutions",
+        "Optimized API performance and database queries to improve application speed and reliability",
+        "Integrated frontend and backend components to deliver seamless, end-to-end functionality",
+        "Sharing technical guidance with team members and coordinating task delivery",
       ],
     },
     {
       COMPANY: "MiDS Consulting",
-      POSITION: "Full-Stack JS Developer",
-      PERIOD: "Feb 2016 - Dec 2016",
+      POSITION: "Full-Stack JavaScript Developer",
+      PERIOD: "February 2016 - December 2016",
       DESCRIPTION:
-        "First exposure to JavaScript ecosystem. Developed 'Naqdina' top-up and payment processing system.",
-      TECHS: ["AngularJS", "Node.js", "Express.js", "MongoDB", "Git"],
+        "Gained my first exposure to the JavaScript ecosystem while developing the ‘Naqdina’ top-up and payment processing system. I started as an intern and progressed to a full-stack JavaScript developer, quickly mastering JavaScript and its frameworks. Recognized as one of the top performers on the team, I contributed significantly to the development and successful delivery of the Naqdina system.",
+      TECHS: [
+        "AngularJS",
+        "Node.js",
+        "Express.js",
+        "MongoDB + Mongoose",
+        "Git",
+      ],
       ACHIEVMENT: [
-        "Built frontend modules with AngularJS",
-        "Developed backend APIs with Node.js/Express",
-        "Worked with MongoDB for data modeling",
+        "Built responsive and dynamic modules using AngularJS, ensuring a seamless and intuitive user experience for the Naqdina system",
+        "Designed and implemented RESTful APIs with Node.js and Express, handling payment processing and top-up workflows efficiently",
+        "Modeled and managed data using MongoDB, performed database testing, optimized queries, and monitored performance to ensure reliable and high-speed data operations",
       ],
     },
   ],
@@ -165,28 +175,21 @@ export const SKILL = {
       ITEMS: [
         "TypeScript",
         "JavaScript",
+        "PHP",
         "React.js",
-        "Next.js",
+        "Next.js (App Router)",
         "Redux",
         "Node.js",
         "Express.js",
-        "Nest.js",
-        "PHP",
+        "Nest.js + Prisma Orm & Type Orm",
         "Symfony",
         "Laravel",
         "CodeIgniter",
-        "AngularJS",
       ],
     },
     OS_TOOLS: {
       TITLE: "DevOps & Tools",
-      ITEMS: [
-        "Docker",
-        "Docker Compose",
-        "Git",
-        "API Development",
-        "Ubuntu (Linux)",
-      ],
+      ITEMS: ["Docker", "Git", "API Development", "Ubuntu (Linux)"],
     },
     DBS: {
       TITLE: "Databases",
@@ -208,17 +211,20 @@ export const EDUCATION = {
   ITEMS: [
     {
       DEGREE: "B.Sc. in Computer Science",
-      INSTITUTION: "Fergusson College, Savitribai Phule Pune University",
-      LOCATION: "Pune, India",
+      INSTITUTION:
+        "Fergusson College, Savitribai Phule Pune University (formally Pune University)",
+      LOCATION: "Pune,Maharashtra, India",
       PERIOD: "2010 – 2014",
-      DETAILS: "Specialized in software engineering and web technologies",
+      DETAILS:
+        "I specialized in software engineering and web technologies, where our department placed a strong emphasis on coding and practical programming skills. The curriculum covered a wide range of subjects, including C, C++, Java, HTML, CSS, JavaScript, networking, mathematics, probability, electronics, programming in electronics, microcontrollers, and microprocessors. These courses provided a solid foundation in both software development and hardware concepts, equipping me with a broad technical skill set.",
     },
     {
       DEGREE: "Baccalaureate",
       INSTITUTION: "Abdul-Rahim-Shahid High School",
-      LOCATION: "Afghanistan",
+      LOCATION: "Kabul, Afghanistan",
       PERIOD: "2010 Graduated",
-      DETAILS: "High school graduation with focus on sciences",
+      DETAILS:
+        "Graduated from high school with a focus on sciences, consistently recognized as one of the top students in my class. Through dedication and hard work, I successfully passed the Conkor exam and was awarded a scholarship in India for the field of Computer Science.",
     },
   ],
 };
@@ -248,6 +254,19 @@ export const PROJECT = {
     },
 
     {
+      TITLE: "My Portfolio",
+      DESCRIPTION: "This is my personal porfolio and is build in nextjs",
+      TECHS: ["TypeScript", "React.js", "Next.js", "Tailwindcss"],
+      CODE: {
+        LINK: "https://github.com/namatullah/portfolio",
+        TITLE: "View Code",
+      },
+      DEMO: { LINK: "#", TITLE: "Live Demo" },
+      LANGUAGE: "TypeScript",
+      LANGUAGE_COLOR: "bg-green-500",
+    },
+
+    {
       TITLE: "Task Management System",
       DESCRIPTION:
         "A modern, production-ready task management application with real-time features, role-based access control, and comprehensive analytics.",
@@ -267,7 +286,7 @@ export const PROJECT = {
       },
       DEMO: { LINK: "#", TITLE: "Live Demo" },
       LANGUAGE: "TypeScript",
-      LANGUAGE_COLOR: "bg-green-500",
+      LANGUAGE_COLOR: "bg-blue-500",
     },
   ],
   GITHUB_REPOSITORIES: {
