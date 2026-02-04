@@ -9,7 +9,7 @@ export default function Profile() {
           src={PROFILE.IMAGE.SRC}
           alt={PROFILE.IMAGE.ALT}
           fill
-          className="object-cover"
+          className="object-cover object-top"
         />
       </div>
       <div className="text-center mt-6">
