@@ -4,7 +4,7 @@ import { PROFILE } from "../ui/constants";
 export default function Profile() {
   return (
     <div className="flex flex-col items-center text-center">
-      <div className="w-28 h-28 relative rounded-full overflow-hidden border-4 border-white shadow-lg mx-auto">
+      <div className="w-35 h-35 relative rounded-full overflow-hidden border border-white shadow-md mx-auto">
         <Image
           src={PROFILE.IMAGE.SRC}
           alt={PROFILE.IMAGE.ALT}
