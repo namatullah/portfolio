@@ -9,9 +9,11 @@ const About = () => {
           <div className="lg:hidden mb-10">
             <Profile />
           </div>
-          <p className="text-md text-gray-800 leading-relaxed">
-            {ABOUT.CONTENT}
-          </p>
+          <div className="text-md text-gray-800 leading-relaxed space-y-4">
+            {ABOUT.CONTENT.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
         </div>
       </div>
     </>

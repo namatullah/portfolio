@@ -91,8 +91,11 @@ export const PAGES = [
 ];
 
 export const ABOUT = {
-  CONTENT:
-    "Full-stack software developer with 8+ years of experience building advanced platforms, management systems, and scalable modern applications. I specialize in designing modular architectures, developing robust backend APIs, and creating responsive, high-performance frontends using modern JavaScript frameworks like React, and Nest.js, as well as PHP ecosystems such as Laravel.Throughout my career, I have contributed to end-to-end development in agile teams, delivering solutions that improve efficiency, enhance user experience, and solve complex business challenges. I am passionate about writing clean, maintainable code, optimizing system performance, and mentoring junior developers to build high-quality software collaboratively.",
+  CONTENT: [
+    "My passion for software development began with my first program in college and has been the driving force of my 8+ year professional career. I never tire of the core cycle: building new software, solving complex problems, and crafting clean, scalable solutions.",
+    "As a full-stack developer, I specialize in building advanced platforms and modern, scalable applications. My expertise spans designing modular architectures, developing robust backend APIs with technologies like Nest.js and Laravel, and creating responsive, high-performance frontends with modern JavaScript frameworks like React.",
+    "Throughout my career in agile teams, I have thrived in end-to-end development—delivering solutions that enhance user experience, improve efficiency, and solve intricate business challenges. I am deeply committed to writing clean, maintainable code, optimizing system performance, and mentoring fellow developers to collaboratively build high-quality software.",
+  ],
 };
 
 export const EXPERIENCE = {
