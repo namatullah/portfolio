@@ -1,34 +1,6 @@
 "use client";
+import { NAVBAR } from "../ui/constants";
 
-import Link from "next/link";
-import {
-  Briefcase,
-  Code,
-  Github,
-  GraduationCap,
-  Mail,
-  User,
-} from "lucide-react";
-const links = [
-  { href: "#about", label: "About", icon: <User className="w-4 h-4" /> },
-  {
-    href: "#experience",
-    label: "Experience",
-    icon: <Briefcase className="w-4 h-4" />,
-  },
-  { href: "#skills", label: "Skills", icon: <Code className="w-4 h-4" /> },
-  {
-    href: "#education",
-    label: "Education",
-    icon: <GraduationCap className="w-4 h-4" />,
-  },
-  {
-    href: "#projects",
-    label: "Projects on GitHub",
-    icon: <Github className="w-4 h-4" />,
-  },
-  { href: "#contact", label: "Contact", icon: <Mail className="w-4 h-4" /> },
-];
 export default function Navbar() {
   return (
     <header
@@ -45,21 +17,24 @@ export default function Navbar() {
       "
     >
       <nav className="flex gap-4">
-        {links.map((link) => (
-          <Link
-            key={link.href}
-            href={link.href}
-            className="flex items-center gap-2 px-4 py-2.5 text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 group relative"
-          >
-            <span className="text-gray-400 group-hover:text-blue-500 transition-colors">
-              {link.icon}
-            </span>
-            <span className="relative">
-              {link.label}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-            </span>
-          </Link>
-        ))}
+        {NAVBAR.LINKS.map((link: any, index:number) => {
+          const LinkIcon = link.ICON;
+          return (
+            <a
+              key={index}
+              href={link.HREF}
+              className="flex items-center gap-2 px-4 py-2.5 text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 group relative"
+            >
+              <span className="text-gray-400 group-hover:text-blue-500 transition-colors">
+                <LinkIcon className="w-4 h-4" />
+              </span>
+              <span className="relative">
+                {link.LABEL}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
+              </span>
+            </a>
+          );
+        })}
       </nav>
     </header>
   );

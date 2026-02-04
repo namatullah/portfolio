@@ -12,7 +12,7 @@ export default function Section({
       id={id}
       className="mb-24 scroll-mt-28"
     >
-      <h2 className="text-3xl font-semibold mb-6">
+      <h2 className="text-lg font-semibold mb-4">
         {title}
       </h2>
       {children}

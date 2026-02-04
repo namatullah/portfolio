@@ -1,18 +1,15 @@
+import { ABOUT } from "@/app/ui/constants";
 import Profile from "../Profile";
 
 const About = () => {
   return (
     <>
-      <div className="lg:hidden mb-10">
-        <Profile />
+      <div className="prose prose-lg max-w-none">
+        <div className="lg:hidden mb-10">
+          <Profile />
+        </div>
+        <p className="text-md text-gray-800 leading-relaxed">{ABOUT.CONTENT}</p>
       </div>
-
-      {/* About text */}
-      <p className="max-w-3xl text-gray-700 leading-relaxed">
-        Full-stack software developer with nearly 9 years of experience building
-        scalable platforms, management systems, and modern web applications
-        using React, Next.js, Node.js, and PHP ecosystems.
-      </p>
     </>
   );
 };

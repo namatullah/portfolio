@@ -25,7 +25,7 @@ export default function Profile() {
         {PROFILE.SKILLS.map((skill: string) => (
           <span
             key={skill}
-            className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm hover:bg-gray-200 transition-colors"
+            className="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs hover:bg-gray-200 transition-colors"
           >
             {skill}
           </span>
