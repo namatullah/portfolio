@@ -4,7 +4,7 @@ import { GraduationCap, MapPin } from "lucide-react";
 export default function Education() {
   return (
     <div className="space-y-8">
-      <div className="bg-white border border-gray-200 rounded-xl p-6">
+      <div className="bg-white border border-gray-200 rounded-md p-6">
         {EDUCATION.ITEMS.map((edu, index) => (
           <div key={index}>
             <div className="flex gap-4">

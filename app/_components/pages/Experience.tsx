@@ -4,7 +4,7 @@ import { Briefcase } from "lucide-react";
 export default function Experience() {
   return (
     <div className="space-y-8">
-      <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-xs">
+      <div className="bg-white rounded-md border border-gray-200 p-6 shadow-xs">
         {EXPERIENCE.EXPERINCES.map((exp, index) => (
           <div key={index}>
             <div className="flex items-center justify-between mb-0">

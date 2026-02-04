@@ -2,7 +2,7 @@ import "./globals.css";
 import { inter } from "./ui/fonts";
 export const metadata = {
   title: "Namatullah Shahbazi | Full-Stack Developer",
-  description: "Senior Full-Stack Developer Portfolio",
+  description: "Full-Stack Developer Portfolio",
 };
 
 export default function RootLayout({

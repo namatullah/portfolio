@@ -1,20 +1,10 @@
 import { CONTACT } from "@/app/ui/constants";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Github,
-  ExternalLink,
-  Send,
-  Facebook,
-  Linkedin,
-  MessageSquare,
-} from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 export default function Contact() {
   return (
     <div className="space-y-8">
-      <div className="bg-white rounded-xl border border-gray-200 p-6">
+      <div className="bg-white rounded-md border border-gray-200 p-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div>
             <h3 className="text-md font-bold text-gray-900 mb-4">

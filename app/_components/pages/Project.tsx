@@ -4,7 +4,7 @@ import { Github, ExternalLink, Star, GitFork } from "lucide-react";
 export default function Project() {
   return (
     <div className="space-y-8">
-      <div className="bg-white rounded-xl border border-gray-200 p-6">
+      <div className="bg-white rounded-md border border-gray-200 p-6">
         {PROJECT.ITEMS.map((project, index) => (
           <div key={index}>
             <div className="p-4 hover:bg-gray-50 rounded-lg transition-colors">

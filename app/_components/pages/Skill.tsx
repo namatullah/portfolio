@@ -3,7 +3,7 @@ import { SKILL } from "@/app/ui/constants";
 export default function Skill() {
   return (
     <div className="space-y-8">
-      <div className="bg-white rounded-xl border border-gray-200 p-6">
+      <div className="bg-white rounded-md border border-gray-200 p-6">
         <div className="mb-8">
           <h3 className="text-md font-bold text-gray-900 mb-6">
             {SKILL.TECH.TITLE}
