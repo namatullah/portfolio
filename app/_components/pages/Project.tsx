@@ -86,13 +86,13 @@ export default function Project() {
       {/* View All Button */}
       <div className="text-center">
         <a
-          href="https://github.com/namatullah?tab=repositories"
+          href={PROJECT.GITHUB_REPOSITORIES.LINK}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-gray-900 to-gray-700 text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
         >
           <Github className="w-5 h-5" />
-          View All Repositories on GitHub
+          {PROJECT.GITHUB_REPOSITORIES.TITLE}
         </a>
       </div>
     </div>

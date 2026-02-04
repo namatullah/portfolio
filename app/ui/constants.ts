@@ -1,9 +1,14 @@
 import {
   Briefcase,
   Code,
+  ExternalLink,
+  Facebook,
   Github,
   GraduationCap,
+  Linkedin,
   Mail,
+  MapPin,
+  Phone,
   User,
 } from "lucide-react";
 import About from "../_components/pages/About";
@@ -265,4 +270,71 @@ export const PROJECT = {
       LANGUAGE_COLOR: "bg-green-500",
     },
   ],
+  GITHUB_REPOSITORIES: {
+    LINK: "https://github.com/namatullah?tab=repositories",
+    TITLE: "View All Repositories on GitHub",
+  },
+};
+
+export const CONTACT = {
+  CONTACT_INFO: {
+    TITLE: "Contact Information",
+    ITEMS: [
+      {
+        ICON: Phone,
+        LABEL: "Phone",
+        VALUE: "+93 701977584 / +93 745647411",
+        HREF: "tel:+93701977584",
+        COLOR: "bg-green-50 text-green-700 border-green-100",
+      },
+      {
+        ICON: Mail,
+        LABEL: "Email",
+        VALUE: "namatullah.shahbazi444@gmail.com",
+        HREF: "mailto:namatullah.shahbazi444@gmail.com",
+        COLOR: "bg-blue-50 text-blue-700 border-blue-100",
+      },
+      {
+        ICON: MapPin,
+        LABEL: "Location",
+        VALUE: "Afghanistan",
+        HREF: null,
+        COLOR: "bg-purple-50 text-purple-700 border-purple-100",
+      },
+    ],
+  },
+
+  SOCIAL_LINK: {
+    TITLE: "Find Me On",
+    ITEMS: [
+      {
+        NAME: "GitHub",
+        ICON: Github,
+        HREF: "https://github.com/namatullah",
+        COLOR: "bg-gray-800 hover:bg-gray-900 text-white",
+        LABEL: "github.com/namatullah",
+      },
+      {
+        NAME: "Stack Overflow",
+        ICON: ExternalLink,
+        HREF: "https://stackoverflow.com/users/5755599",
+        COLOR: "bg-orange-500 hover:bg-orange-600 text-white",
+        LABEL: "stackoverflow.com/users/5755599",
+      },
+      {
+        NAME: "LinkedIn",
+        ICON: Linkedin,
+        HREF: "https://linkedin.com/in/your-profile",
+        COLOR: "bg-blue-700 hover:bg-blue-800 text-white",
+        LABEL: "linkedin.com/in/your-profile",
+      },
+      {
+        NAME: "Facebook",
+        ICON: Facebook,
+        HREF: "https://facebook.com/your-profile",
+        COLOR: "bg-blue-600 hover:bg-blue-700 text-white",
+        LABEL: "facebook.com/your-profile",
+      },
+    ],
+  },
 };
